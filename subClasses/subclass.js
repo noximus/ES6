@@ -1,7 +1,7 @@
 class Mammal {
     constructor(_legs, _name="jon doe"){
-        this.legs = legs;
-        this.name = name;
+        this.legs = _legs;
+        this.name = _name;
         this.warmBlooded = true;
     }
     walk(){
@@ -17,6 +17,7 @@ class Bat extends Mammal{
     fly(){
         return `${this.name} is flying`;
     }
+    // overrides original walk method
     walk(){
         let holding = this.eatsMeat ? 'bug' : 'carrot';
         return `${super.walk()} with a ${holding}`;
