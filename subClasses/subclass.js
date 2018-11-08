@@ -5,7 +5,7 @@ class Mammal {
         this.warmBlooded = true;
     }
     walk(){
-        return `$(this.name) is walking`
+        return `${this.name} is walking`;
     }
 }
 
@@ -23,3 +23,9 @@ class Bat extends Mammal{
         return `${super.walk()} with a ${holding}`;
     }
 }
+
+// create new object
+let fruitBat = new Bat (4, 'peter', false);
+
+console.log(fruitBat);
+console.log(fruitBat.walk());
