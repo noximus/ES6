@@ -8,6 +8,3 @@ class Car {
 }
 // returns a function
 console.dir(Car);
-
-
-
