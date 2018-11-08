@@ -7,4 +7,7 @@ class Car {
     }
 }
 // returns a function
-console.dir(Car);
+// console.dir(Car);
+
+let redCAr = new Car('red');
+console.dir(redCar);
