@@ -29,3 +29,10 @@ let fruitBat = new Bat (4, 'peter', false);
 
 console.log(fruitBat);
 console.log(fruitBat.walk());
+
+class Mammal {
+    constructor(a,b,c,d,e){
+        Object.assign(this, {a,b,c,d,e});
+    }
+}
+
