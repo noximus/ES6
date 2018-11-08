@@ -36,3 +36,9 @@ class Mammal {
     }
 }
 
+class Bat extends Mammal{
+    constructor(f, ...args){
+        super(...args);
+        this.f = f;
+    }
+}
